@@ -18,12 +18,12 @@ ex)	fib(n)	0 횟수	1 횟수		(value)
 	즉, n의 fib(0), fib(1) 사용횟수는 n-1과 n-2의 fib(0), fib(1) 사용횟수 들의 각각의 합과 같다.
 */
 
-int a, b;											// a는 fib(0) 사용횟수, b는 fib(1) 사용횟수를 저장하는 전역변수이다.
+int a, b;							// a는 fib(0) 사용횟수, b는 fib(1) 사용횟수를 저장하는 전역변수이다.
 
-int fib(int);										// 밑에 구현할 피보나치 함수 선언
+int fib(int);							// 밑에 구현할 피보나치 함수 선언
 
 int main() {
-	int count, i;									// 몇 번 계산할지 입력받는 변수
+	int count, i;						// 몇 번 계산할지 입력받는 변수
 	cin >> count;
 
 	int *nums = NULL;					// 변수 입력을 먼저 일괄적으로 받고, 한번에 출력하기 위한 동적 배열 선언
