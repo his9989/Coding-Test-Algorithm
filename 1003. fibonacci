@@ -6,7 +6,7 @@ fibonacci 수열을 Dynamic programming으로 해결할 때,
 fib(0)과 fib(1)이 각각 몇 번 씩 사용되는지 출력하는 코드.
 
 이는 규칙적인 모양을 보인다.
-ex)	fib(n)	0 횟수	1 횟수		(value)
+ex)	fib(n)		0 횟수	      1 횟수		    (value)
 	0		1		0			0
 	1		0		1			1
 	2		1		1			1
