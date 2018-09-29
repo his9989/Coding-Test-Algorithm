@@ -1,31 +1,25 @@
-#include<iostream>
-#include<queue>
+#include <iostream>
 using namespace std;
 
-queue<int> que;
-queue<int> que2;
-
 int main() {
-	int N, M;
-	int first = 0;
-	cin >> N >> M;
-	for (int i = 1; i <= N; i++) 
-		que.push(i);
-	while (que.empty() != true) {
-		for (int j = 0; j < M-1; j++) {
-			first = que.front();
-			que.pop();
-			que.push(first);
+	int n;
+	cin >> n;
+
+	// 1차 동적 배열
+	int *count = NULL;
+	count = new int[n];
+	// 1차 동적 배열 초기화
+	for (int i = 0; i < n; i++) count[i] = 0;
+
+	// 2차 동적 배열
+	int ** arr = new int*[n];
+	for (int i = 0; i<n; i++) {
+		arr[i] = new int[4];
+	}
+	// 2차 동적 배열 초기화
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < 4; j++) {
+			arr[i][j] = 0;
 		}
-		que2.push(que.front());
-		que.pop();
 	}
-	int size = que2.size();
-	cout << "<";
-	for (int i = 0; i < size; i++) {
-		cout<<que2.front();
-		if (i != size - 1) cout << ", ";
-		que2.pop();
-	}
-	cout << ">";
 }
