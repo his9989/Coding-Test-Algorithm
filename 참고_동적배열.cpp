@@ -5,18 +5,18 @@ int main() {
 	int n;
 	cin >> n;
 
-	// 1Â÷ µ¿Àû ¹è¿­
+	// 1ì°¨ ë™ì  ë°°ì—´
 	int *count = NULL;
 	count = new int[n];
-	// 1Â÷ µ¿Àû ¹è¿­ ÃÊ±âÈ­
+	// 1ì°¨ ë™ì  ë°°ì—´ ì´ˆê¸°í™”
 	for (int i = 0; i < n; i++) count[i] = 0;
 
-	// 2Â÷ µ¿Àû ¹è¿­
+	// 2ì°¨ ë™ì  ë°°ì—´
 	int ** arr = new int*[n];
 	for (int i = 0; i<n; i++) {
 		arr[i] = new int[4];
 	}
-	// 2Â÷ µ¿Àû ¹è¿­ ÃÊ±âÈ­
+	// 2ì°¨ ë™ì  ë°°ì—´ ì´ˆê¸°í™”
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < 4; j++) {
 			arr[i][j] = 0;
