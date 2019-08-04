@@ -7,9 +7,9 @@
   +         인접 원소 비교해서 오름차순 정렬
 * selection sort : (0:N)에서 제일 작은애를 0에 두기 -> (1:N)에서 제일 작은애를 1에 두기 ... 반복
 * insertion sort : bubble sort와 다르게 작은 값을 바로 앞의 원소랑만 바꾸는게 아니라, 제일 앞으로 옮기는 방식
-* quick sort
-* Heap sort
-* merge sort
+* quick sort : 
+* Heap sort : 
+* merge sort : 원소가 하나 남을 때 까지 반으로 분할한 뒤에, 정렬하며 병합하는 정렬
 
 #### search
 * Breadth first search
