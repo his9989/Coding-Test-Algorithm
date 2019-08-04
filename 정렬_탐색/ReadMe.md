@@ -6,6 +6,7 @@
 * insertion sort
 * quick sort
 * Heap sort
+* merge sort
 
 #### search
 * Breadth first search
