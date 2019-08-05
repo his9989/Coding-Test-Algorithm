@@ -7,13 +7,15 @@
   +         인접 원소 비교해서 오름차순 정렬
 * selection sort : (0:N)에서 제일 작은애를 0에 두기 -> (1:N)에서 제일 작은애를 1에 두기 ... 반복
 * insertion sort : bubble sort와 다르게 작은 값을 바로 앞의 원소랑만 바꾸는게 아니라, 제일 앞으로 옮기는 방식
-* quick sort : 
-* Heap sort : 
+* quick sort : 가장 앞 원소를 기준키로 잡고 이를 기준으로, 왼쪽부터 큰것, 오른쪽부터 작은것을 찾아서 서로 바꾼다. 서로 엇갈리는 지점에서 작은 수를 기준키와 바꾼다 -> 새롭게 위치가 설정된 기준키를 중심으로 왼쪽에는 기준키보다 작은 값, 오른쪽에는 기준키보다 큰 값이 몰린다. 같은 방법으로 각 군집에 대해 정렬
+* Heap sort : 배열 원소를 완전 이진 트리로 저장한 뒤, 가장 큰 수를 가장 뒤 쪽의 원소와 트레이드하는 방식
 * merge sort : 원소가 하나 남을 때 까지 반으로 분할한 뒤에, 정렬하며 병합하는 정렬
 
 #### search
-* Breadth first search
-* Depth first search
-* Dynamic Programming
-* Bruth force Search (완전 탐색)
-* Binary search tree
+* Breadth first search : 같은 깊이에 해당하는 노드들을 일괄적으로 탐색한 뒤에 다음 깊이의 노드로 넘어가는 방식
+  + 가장 많이 사용하는 방식 밑에 정리하기!
+* Depth first search : 가장 깊은 노드까지 탐색한 뒤에 옆에 있는 노드를 탐색하는 방식.
+  + 가장 많이 사용하는 방식 밑에 정리하기!
+* Dynamic Programming : 점화식!
+* Bruth force Search (완전 탐색) : 노가다 for문!
+* Binary search tree : 루트부터 작으면 왼쪽, 크면 오른쪽으로 내려간다.
