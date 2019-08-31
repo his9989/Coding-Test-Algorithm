@@ -1,8 +1,10 @@
-# baekjoon-algorithm
+# Coding-Test-algorithm
 This is algorithm problem and my solution about it
 
-if you have any suggestion for more great code or have question about my code, please use Issues.
+if you have any suggestion for more great code or have question about my code, please use Issues, or send mail to me.
 Thank you for your interest
+
+his9989@naver.com
 
 ref. site </br>
 * BOJ : https://www.acmicpc.net/ </br>
