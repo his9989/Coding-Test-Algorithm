@@ -16,3 +16,6 @@ ref. site </br>
 * 해외 알고리즘 콘테스트.
   + Codeforces : http://codeforces.com/
   + TopCoder : https://www.topcoder.com/
+
+### 다시 풀 것
+* 1987 알파벳
